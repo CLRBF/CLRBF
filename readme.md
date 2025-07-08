@@ -1,7 +1,16 @@
-# codes can be found in folder 'code'
-# For Poisson's equation and Wave equation, you can directly run the codes in forward problem and then use the generated data to solve the inverse problem
-# For Thermal_Stress_Analysis, you need to use data in both forward and inverse problem
-# data for Thermal_Stress_Analysis can be found in  folder 'data'
-#The results for forward problem can be found in folder 'result' 
+This repository contains code for solving Poisson's equation, the Wave equation, and Thermal Stress Analysis, including forward and inverse problems.
 
-#Usage: install the packages in requirement.txt and then run the code in each folder
+## Repository Structure
+
+- `code/`: Source code for all solvers.
+  - **Poisson's Equation**: Run forward problem code to generate data, then use it for the inverse problem.
+  - **Wave Equation**: Run forward problem code to generate data, then use it for the inverse problem.
+  - **Thermal Stress Analysis**: Uses data from `data/` for both forward and inverse problems.
+- `data/`: Input data for Thermal Stress Analysis.
+- `result/`: Output results from forward problem solvers.
+
+## Usage
+
+1. Install required packages:
+   ```bash
+   pip install -r requirements.txt
